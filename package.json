@@ -2,7 +2,7 @@
   "name": "curriculum",
   "version": "1.0.0",
   "description": "",
-  "homepage":"https//ocampoaleja.github.io/cv",
+  "homepage":"https//ocampoaleja.github.io",
   "main": "index.js",
   "scripts": {
     "predeploy":"yarn build",
