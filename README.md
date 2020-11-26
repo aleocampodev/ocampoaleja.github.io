@@ -1,0 +1,3 @@
+# ocampoaleja.github.io
+
+#curriculum
