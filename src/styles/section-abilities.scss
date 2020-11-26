@@ -1,0 +1,79 @@
+.section-abilities{
+    height:40rem;
+    position:relative;
+
+    &__boxtext{
+        height:482px;
+
+    }
+
+    &__boxHTML{
+    
+        &::before{
+            background: url('../assets/img/html.webp');
+            
+            @include size;
+
+            @include left;
+        }
+
+    }
+
+    &__boxCSS{
+
+        &::before{
+            background-image: url('../assets//img/css.webp');
+            
+            @include size;
+
+            @include left;
+        }
+    }
+
+    &__boxJS{
+
+        &::before{
+            background-image: url('../assets/img/js.webp');
+            margin-left:15px;
+            margin-top: -5px;;
+            
+            @include size;
+
+            
+        }
+    }
+
+    &__boxPACKER{
+
+        &::before{
+            background-image: url('../assets/img/empaquetador.webp');
+
+            @include size;
+            @include left;
+            
+        }
+    }
+
+    &__subtitle{
+        margin-top:25px;
+    }
+
+    &__images{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+
+        &::before{
+            content:'';
+            background-image:url('../assets/img/work.webp');
+            background-size: cover;
+            position: absolute;
+            width:485px;
+            height:355px;
+            margin-right:215px;
+        }
+
+
+    }
+}

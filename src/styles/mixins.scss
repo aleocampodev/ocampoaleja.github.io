@@ -1,0 +1,15 @@
+@mixin size{
+    content:"";
+    width:50px;
+    height:52px;
+    position: absolute;
+    background-size: cover;
+    margin-top:-25px;
+    opacity: 0.3;
+}
+
+@mixin left{
+    margin-left: 10px;
+}
+
+

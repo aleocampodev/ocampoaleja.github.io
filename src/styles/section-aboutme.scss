@@ -1,0 +1,15 @@
+.section-aboutme{
+    height:100%;
+    margin:0 auto;
+
+    &__image{
+        transform:translate(-60px,108px);
+        box-shadow: 3px 2px 0px 1px rgba(223, 18, 127, 0.5);
+    }
+}
+
+.slick-prev{
+    background-color:blue;
+}
+
+
