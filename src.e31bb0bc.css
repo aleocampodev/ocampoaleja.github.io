@@ -2,13 +2,12 @@
   height: 100%;
   margin: 0 auto;
 }
-.section-aboutme__image {
-  transform: translate(-60px, 108px);
-  box-shadow: 3px 2px 0px 1px rgba(223, 18, 127, 0.5);
+.section-aboutme__container-image {
+  width: 30%;
 }
-
-.slick-prev {
-  background-color: blue;
+.section-aboutme__image {
+  transform: translate(-60px, 210px);
+  box-shadow: 3px 2px 10px 5px rgba(223, 18, 127, 0.5);
 }
 
 .section-abilities {
